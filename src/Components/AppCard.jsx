@@ -7,7 +7,7 @@ const AppCard = ({ app }) => {
       <div className=" p-4">
         <Link
           to={`/Apps/${app.id}`}
-          className="border-gray-500 border-2 card bg-base-100 w-70 p-4 gap-5 shadow-sm hover:scale-110 transition ease-in-out"
+          className="border-gray-300 border-2 card bg-base-100 w-70 p-4 gap-5 shadow-sm hover:scale-110 transition ease-in-out"
         >
           <figure className=" h-48 overflow-hidden">
             <img src={app.image} alt="Shoes" className="w-full object-cover " />

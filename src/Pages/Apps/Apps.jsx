@@ -56,7 +56,7 @@ const Apps = () => {
         // <p className="text-center text-red-500 text-5xl p-40 font-bold">
         //   App not found
         // </p>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 ">
           {searchApps.map((app) => (
             <AppCard key={app.id} app={app} />
           ))}
