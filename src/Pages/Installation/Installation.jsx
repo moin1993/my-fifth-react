@@ -47,11 +47,12 @@ const Installation = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center text-center flex-col p-4">
+      <div className="flex justify-center items-center text-center flex-col p-4 mx-auto ">
         <h1 className="font-bold text-5xl">Your installed App</h1>
+        <br />
         <p>Explore All Trending Apps on the Market developed by us</p>
       </div>
-      <div className="flex justify-between font-bold text-4xl">
+      <div className="flex justify-between font-bold text-4xl mx-5">
         <h1>App found:({install.length})</h1>
 
         <label className="form-control w-full max-w-xs">
@@ -67,17 +68,19 @@ const Installation = () => {
         </label>
       </div>
       ;
-      <div className="space-y-3">
+      <div className="space-y-3 ">
         {sortedItem().map((a) => (
-          <div className="card card-side bg-base-100 shadow-sm p-4">
+          <div className="card card-side bg-base-500 shadow-sm p-4 ">
             <figure>
               <img className="h-20" src={a.image} alt="Movie" />
             </figure>
             <div className="card-body">
               <h2 className="card-title text-4xl">{a.title}</h2>
               <div className="">
-                <p className="text-green-700 font-bold ">{a.downloads}</p>
-                <p className="text-purple-700 font-bold ">{a.size}</p>
+                <div>
+                  <p className="text-green-700 font-bold ">{a.downloads}</p>
+                  <p className="text-purple-700 font-bold ">{a.size}</p>
+                </div>
               </div>
 
               <div className="card-actions justify-end">

@@ -41,7 +41,7 @@ const Navbar = () => {
 
         <Link to="/" className="btn btn-ghost text-xl">
           {" "}
-          <img src="/public/assets/logo.png" alt="" className="h-10" />
+          <img src="/assets/logo.png" alt="" className="h-10" />
           HERO.IO
         </Link>
       </div>

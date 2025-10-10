@@ -17,11 +17,7 @@ const AppCard = ({ app }) => {
 
             <div className="flex justify-between items-center ">
               <div className="flex justify-center items-center bg-yellow-100 h-fit p-2 rounded-2xl">
-                <img
-                  className="h-5"
-                  src="/public/assets/icon-ratings.png"
-                  alt=""
-                />
+                <img className="h-5" src="/assets/icon-ratings.png" alt="" />
                 <p className="text-green-600 font-bold p-2 rounded-2xl">
                   {app.ratingAvg}
                 </p>

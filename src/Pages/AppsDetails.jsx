@@ -34,9 +34,6 @@ const AppsDetails = () => {
       <div>
         <img src="/public/assets/error-404.png" alt="" />
       </div>
-      // <p className="text-center text-red-500 text-xl mt-20">
-      //   Failed to load app data
-      // </p>
     );
   }
 
@@ -83,21 +80,22 @@ const AppsDetails = () => {
           </p>
 
           <div className="flex justify-around text-center mb-5">
-            <div>
-              <HiDownload className="size-[30px]" />
+            <div className="flex flex-col items-center">
+              <img src="/assets/icon-downloads.png" alt="" />
               <p>Downloads</p>
               <p className="font-bold text-4xl text-green-600">
                 {app.downloads}
               </p>
             </div>
-            <div>
-              <FaStar />
+            <div className="flex flex-col items-center">
+              <img src="/assets/icon-ratings.png" alt="" />
               <p>Average Ratings</p>
               <p className="font-bold text-4xl text-yellow-500">
                 {app.ratingAvg}
               </p>
             </div>
-            <div>
+            <div className="flex flex-col items-center">
+              <img src="/assets/icon-review.png" alt="" />
               <p>Total Reviews</p>
               <p className="font-bold text-4xl text-purple-600">
                 {app.reviews}

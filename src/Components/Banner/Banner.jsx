@@ -35,7 +35,7 @@ const Banner = () => {
           </a>
         </div>
         <div>
-          <img src="/public/assets/hero.png" alt="" />
+          <img src="/assets/hero.png" alt="" />
         </div>
       </div>
       <div className=" bg-purple-600 flex flex-col justify-center items-center text-white ">
