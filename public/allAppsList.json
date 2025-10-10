@@ -1,0 +1,398 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
+    "title": "ChatMaster AI",
+    "companyName": "NeuralWave Labs",
+    "description": "An AI chatbot that boosts your productivity and creativity.",
+    "size": 45,
+    "reviews": 1250,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://cdn-icons-png.flaticon.com/512/2965/2965567.png",
+    "title": "FitTrack Pro",
+    "companyName": "HealthSync Inc.",
+    "description": "Track workouts, meals, and fitness goals in one place.",
+    "size": 72,
+    "reviews": 3200,
+    "ratingAvg": 4.8,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1850 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://cdn-icons-png.flaticon.com/512/3208/3208677.png",
+    "title": "NoteNest",
+    "companyName": "ByteForge Studio",
+    "description": "Sync your notes across devices and organize your ideas.",
+    "size": 38,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+    "downloads": 280000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://cdn-icons-png.flaticon.com/512/1163/1163661.png",
+    "title": "WeatherFlow",
+    "companyName": "Skyline Systems",
+    "description": "Accurate forecasts and live radar maps for your area.",
+    "size": 55,
+    "reviews": 2200,
+    "ratingAvg": 4.5,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 990 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://cdn-icons-png.flaticon.com/512/857/857681.png",
+    "title": "Foodify",
+    "companyName": "DelishApps Co.",
+    "description": "Discover and order food from your favorite restaurants.",
+    "size": 68,
+    "reviews": 4100,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 420 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2140 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://cdn-icons-png.flaticon.com/512/744/744502.png",
+    "title": "TravelMate",
+    "companyName": "GlobeTrek Digital",
+    "description": "Plan trips, find attractions, and book hotels easily.",
+    "size": 90,
+    "reviews": 2890,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1440 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920322.png",
+    "title": "PhotoFix Pro",
+    "companyName": "Pixarise Media",
+    "description": "Enhance and edit your photos with AI-powered filters.",
+    "size": 80,
+    "reviews": 3750,
+    "ratingAvg": 4.3,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1630 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://cdn-icons-png.flaticon.com/512/3523/3523063.png",
+    "title": "MindEase",
+    "companyName": "CalmCloud Tech",
+    "description": "Meditate, relax, and improve your mental well-being.",
+    "size": 60,
+    "reviews": 5000,
+    "ratingAvg": 4.9,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 3550 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://cdn-icons-png.flaticon.com/512/3209/3209265.png",
+    "title": "FinanceFlow",
+    "companyName": "WealthWare Ltd.",
+    "description": "Manage expenses, track budgets, and monitor savings.",
+    "size": 48,
+    "reviews": 3100,
+    "ratingAvg": 4.6,
+    "downloads": 880000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 1610 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888954.png",
+    "title": "EduSmart",
+    "companyName": "Learnify Tech",
+    "description": "Interactive learning for students of all ages.",
+    "size": 85,
+    "reviews": 2700,
+    "ratingAvg": 4.4,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1100 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://cdn-icons-png.flaticon.com/512/727/727240.png",
+    "title": "MusicVerse",
+    "companyName": "RhythmWorks",
+    "description": "Stream millions of songs and podcasts anytime.",
+    "size": 95,
+    "reviews": 4500,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 2280 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://cdn-icons-png.flaticon.com/512/1490/1490858.png",
+    "title": "CryptoTrack",
+    "companyName": "BlockSync Labs",
+    "description": "Monitor cryptocurrency prices and manage portfolios.",
+    "size": 66,
+    "reviews": 3300,
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 360 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1590 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://cdn-icons-png.flaticon.com/512/891/891462.png",
+    "title": "ShopSmart",
+    "companyName": "EcomEase Corp",
+    "description": "Compare prices and get deals from top online stores.",
+    "size": 58,
+    "reviews": 5200,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3350 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://cdn-icons-png.flaticon.com/512/769/769022.png",
+    "title": "TaskTide",
+    "companyName": "FlowSpace Apps",
+    "description": "Manage projects and collaborate with your team in real time.",
+    "size": 70,
+    "reviews": 1600,
+    "ratingAvg": 4.3,
+    "downloads": 430000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://cdn-icons-png.flaticon.com/512/337/337946.png",
+    "title": "DocuSignify",
+    "companyName": "Paperless Ltd.",
+    "description": "Sign, send, and manage documents digitally and securely.",
+    "size": 64,
+    "reviews": 1900,
+    "ratingAvg": 4.5,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 880 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://cdn-icons-png.flaticon.com/512/3097/3097951.png",
+    "title": "GameHub",
+    "companyName": "PixelStorm",
+    "description": "Play free online games and connect with friends.",
+    "size": 120,
+    "reviews": 6800,
+    "ratingAvg": 4.2,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+    "title": "Readify",
+    "companyName": "BookVerse Studio",
+    "description": "Read thousands of eBooks and audiobooks anytime.",
+    "size": 85,
+    "reviews": 3000,
+    "ratingAvg": 4.7,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://cdn-icons-png.flaticon.com/512/3318/3318726.png",
+    "title": "SafeGuard VPN",
+    "companyName": "CyberFort Labs",
+    "description": "Protect your online privacy and browse safely worldwide.",
+    "size": 50,
+    "reviews": 4200,
+    "ratingAvg": 4.6,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2360 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://cdn-icons-png.flaticon.com/512/945/945252.png",
+    "title": "StreamBox",
+    "companyName": "Nova Media",
+    "description": "Watch live TV, movies, and series anytime, anywhere.",
+    "size": 110,
+    "reviews": 7100,
+    "ratingAvg": 4.5,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 3350 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://cdn-icons-png.flaticon.com/512/3176/3176368.png",
+    "title": "LangLearn",
+    "companyName": "Polyglot Labs",
+    "description": "Learn languages through gamified lessons and challenges.",
+    "size": 78,
+    "reviews": 2500,
+    "ratingAvg": 4.8,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1430 }
+    ]
+  },
+  {
+    "id": 21,
+    "image": "https://cdn-icons-png.flaticon.com/512/616/616408.png",
+    "title": "PetCare",
+    "companyName": "HappyPaws Co.",
+    "description": "Track your pet’s health, diet, and appointments.",
+    "size": 40,
+    "reviews": 1900,
+    "ratingAvg": 4.6,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 870 }
+    ]
+  },
+  {
+    "id": 22,
+    "image": "https://cdn-icons-png.flaticon.com/512/2910/2910768.png",
+    "title": "QuickScan",
+    "companyName": "DocuEdge",
+    "description": "Scan documents and convert them into editable PDFs.",
+    "size": 35,
+    "reviews": 2800,
+    "ratingAvg": 4.7,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 900 }
+    ]
+  }
+]
