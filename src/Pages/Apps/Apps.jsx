@@ -4,7 +4,7 @@ import useApp from "../../Hooks/useApps";
 import LoadingSpinner from "../../Components/LoadingSpinner";
 
 const Apps = () => {
-  const { apps, loading } = useApp();
+  const { apps, loading, error } = useApp();
   const [search, setSearch] = useState("");
 
   const term = search.trim().toLowerCase();
@@ -19,6 +19,9 @@ const Apps = () => {
         <LoadingSpinner />
       </div>
     );
+  }
+  if (error) {
+    return <Error></Error>;
   }
 
   return (
@@ -44,7 +47,11 @@ const Apps = () => {
       </div>
 
       {searchApps.length === 0 ? (
-        <img className="ml-150 p-10" src="/assets/App-Error.png" alt="" />
+        <img
+          className="flex flex-col justify-center items-center  min-h-screen"
+          src="/assets/App-Error.png"
+          alt=""
+        />
       ) : (
         // <p className="text-center text-red-500 text-5xl p-40 font-bold">
         //   App not found

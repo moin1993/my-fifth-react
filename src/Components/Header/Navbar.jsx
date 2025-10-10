@@ -61,7 +61,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <a
           href="https://github.com"
-          className="btn bg-purple-600 p-4 rounded-2xl"
+          className="btn bg-purple-600 p-4 rounded-2xl text-white"
         >
           Contribute
         </a>

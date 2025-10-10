@@ -1,188 +1,3 @@
-// import React, { useEffect, useState } from "react";
-// import { useParams } from "react-router";
-// import useApp from "../Hooks/useApps";
-// import { ToastContainer, toast } from "react-toastify";
-
-// const AppsDetails = () => {
-//   const { id } = useParams();
-//   const { apps, loading, error } = useApp();
-//   const [isInstalled, setIsInstalled] = useState(false);
-//   const app = apps.find((a) => String(a.id) === id);
-//   if (loading) return <p>loadign .......</p>;
-//   if (!app)
-//     return <p className="text-center text-red-500 text-xl">App not found 😢</p>;
-
-//   const handleInstall = () => {
-//     const existingApp = JSON.parse(localStorage.getItem("install")) || [];
-//     let updatedList = [];
-//     updatedList = [...existingApp, app];
-//     const isDuplicate = existingApp.some((a) => a.id === app.id);
-//     if (isDuplicate) {
-//       toast.warn("This app is already installed!");
-//       setIsInstalled(true);
-//       return;
-//     }
-
-//     localStorage.setItem("install", JSON.stringify(updatedList));
-//     toast("Wow so easy!");
-//   };
-
-//   return (
-//     <div>
-//       <div className="flex justify-center items-center p-30">
-//         <div>
-//           <figure className="h-80 overflow-hidden">
-//             <img src={app.image} alt="Shoes" className="w-full object-cover " />
-//           </figure>
-//         </div>
-//         <div className="">
-//           <div className="flex justify-center flex-col text-center p-3">
-//             <h2 className="card-title font-bold text-4xl">{app.title}</h2>
-//             <p>
-//               A card component has a figure, a body part, and inside body there
-//               are title and actions parts
-//             </p>
-//           </div>
-
-//           <div className="flex justify-around">
-//             <div>
-//               <p>Download</p>
-
-//               <p className="font-bold text-4xl">{app.downloads}</p>
-//             </div>
-//             <div>
-//               <p>Average ratings</p>
-//               <p className="font-bold text-4xl">{app.ratingAvg}</p>
-//             </div>
-//             <div>
-//               <p>Total Reviews</p>
-//               <p className="font-bold text-4xl">{app.reviews}</p>
-//             </div>
-//           </div>
-
-//           <div className="card-actions justify-center p-4">
-//             {isInstalled ? (
-//               <button
-//                 disabled
-//                 className="btn bg-gray-400 text-white text-2xl p-6 rounded-2xl cursor-not-allowed"
-//               >
-//                 Installed ✅
-//               </button>
-//             ) : (
-//               <button
-//                 onClick={handleInstall}
-//                 className="btn bg-green-700 text-white text-2xl p-7 rounded-2xl"
-//               >
-//                 Install now
-//               </button>
-//             )}
-//           </div>
-//         </div>
-//       </div>
-//       <ToastContainer />
-//     </div>
-//   );
-// };
-
-// export default AppsDetails;
-
-// import { useParams } from "react-router";
-// import useApp from "../Hooks/useApps";
-// import { ToastContainer, toast } from "react-toastify";
-// import LoadingSpinner from "../Components/LoadingSpinner";
-
-// const AppsDetails = () => {
-//   const { id } = useParams();
-//   const { apps, loading, error } = useApp();
-
-//   if (loading)
-//     return (
-//       <div className="flex justify-center items-center h-[80vh]">
-//         <LoadingSpinner />
-//       </div>
-//     );
-
-//   const app = apps.find((a) => String(a.id) === id);
-//   if (!app)
-//     return <p className="text-center text-red-500 text-xl">App not found 😢</p>;
-
-//   const installedApps = JSON.parse(localStorage.getItem("install")) || [];
-//   const isInstalled = installedApps.some((a) => a.id === app.id);
-
-//   const handleInstall = () => {
-//     const isDuplicate = installedApps.some((a) => a.id === app.id);
-//     if (isDuplicate) {
-//       toast.warn("This app is already installed!");
-//       return;
-//     }
-//     const updatedList = [...installedApps, app];
-//     localStorage.setItem("install", JSON.stringify(updatedList));
-//     toast.success("App installed successfully!");
-//   };
-
-//   return (
-//     <div>
-//       <div className="flex justify-center items-center p-30">
-//         <div>
-//           <figure className="h-80 overflow-hidden">
-//             <img
-//               src={app.image}
-//               alt={app.title}
-//               className="w-full object-cover"
-//             />
-//           </figure>
-//         </div>
-
-//         <div className="">
-//           <div className="flex justify-center flex-col text-center p-3">
-//             <h2 className="card-title font-bold text-4xl">{app.title}</h2>
-//             <p>
-//               A card component has a figure, a body part, and inside body there
-//               are title and actions parts
-//             </p>
-//           </div>
-
-//           <div className="flex justify-around">
-//             <div>
-//               <p>Download</p>
-//               <p className="font-bold text-4xl">{app.downloads}</p>
-//             </div>
-//             <div>
-//               <p>Average ratings</p>
-//               <p className="font-bold text-4xl">{app.ratingAvg}</p>
-//             </div>
-//             <div>
-//               <p>Total Reviews</p>
-//               <p className="font-bold text-4xl">{app.reviews}</p>
-//             </div>
-//           </div>
-
-//           <div className="card-actions justify-center p-4">
-//             {isInstalled ? (
-//               <button
-//                 disabled
-//                 className="btn bg-gray-400 text-white text-2xl p-6 rounded-2xl cursor-not-allowed"
-//               >
-//                 Installed ✅
-//               </button>
-//             ) : (
-//               <button
-//                 onClick={handleInstall}
-//                 className="btn bg-green-700 text-white text-2xl p-7 rounded-2xl"
-//               >
-//                 Install now
-//               </button>
-//             )}
-//           </div>
-//         </div>
-//       </div>
-//       <ToastContainer />
-//     </div>
-//   );
-// };
-
-// export default AppsDetails;
-
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApp from "../Hooks/useApps";
@@ -206,7 +21,6 @@ const AppsDetails = () => {
     setIsInstalled(alreadyInstalled);
   }, [id]);
 
-  // show loading spinner
   if (loading) {
     return (
       <div className="flex justify-center items-center h-[80vh]">
@@ -215,16 +29,17 @@ const AppsDetails = () => {
     );
   }
 
-  // show error
   if (error) {
     return (
-      <p className="text-center text-red-500 text-xl mt-20">
-        Failed to load app data
-      </p>
+      <div>
+        <img src="/public/assets/error-404.png" alt="" />
+      </div>
+      // <p className="text-center text-red-500 text-xl mt-20">
+      //   Failed to load app data
+      // </p>
     );
   }
 
-  // if no app found
   if (!app) {
     return (
       <p className="text-center font-extrabold  text-red-500 text-5xl mt-20 p-40">

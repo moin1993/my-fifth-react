@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import LoadingSpinner from "../../Components/LoadingSpinner";
+import useApp from "../../Hooks/useApps";
 
 const Installation = () => {
   const [install, setInstall] = useState([]);
   const [sortOrder, setSortOrder] = useState("none");
   const [loading, setLoading] = useState(true);
+  const { error } = useApp();
 
   useEffect(() => {
     const savedApp = JSON.parse(localStorage.getItem("install")) || [];
@@ -38,6 +40,9 @@ const Installation = () => {
         <LoadingSpinner />
       </div>
     );
+  }
+  if (error) {
+    return <Error></Error>;
   }
 
   return (
